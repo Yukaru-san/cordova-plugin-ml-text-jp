@@ -22,6 +22,7 @@ import android.util.Log;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.mlkit.vision.common.InputImage;
 import com.google.mlkit.vision.text.Text;
+import com.google.mlkit.vision.text.japanese.JapaneseTextRecognizerOptions;
 import com.google.mlkit.vision.text.TextRecognition;
 import com.google.mlkit.vision.text.TextRecognizer;
 
@@ -124,7 +125,7 @@ public class Mltext extends CordovaPlugin {
                             callbackContext.sendPluginResult(r);
                         }
 
-                        TextRecognizer textRecognizer = TextRecognition.getClient();
+                        TextRecognizer textRecognizer = TextRecognition.getClient(new JapaneseTextRecognizerOptions.Builder().build());
 
                         if (bitmap != null)
                         {
