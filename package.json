@@ -1,36 +1,35 @@
 {
-    "name": "cordova-plugin-ml-text-jp",
-    "version": "3.1.0",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Yukaru-san/cordova-plugin-ml-text-jp"
-    },
-    "cordova": {
-      "id": "cordova-plugin-ml-text",
-      "platforms": [
-        "android"
-      ]
-    },
-    "keywords": [
-      "cordova",
-      "text",
-      "ocr",
-      "ML Kit",
-      "machine learning",
-      "text recognition",
-      "optical",
-      "character",
-      "recognition",
-      "ecosystem:cordova",
-      "cordova-android",
-      "mobile ocr"
-    ],
-    "engines": {
-      "cordovaDependencies": {
-        "cordova-android": ">=6.4.0"
-    },
-    "author": "jatahworx",
-    "license": "ISC",
-    "description": "cordova plugin for mobile ocr text recognition"
-  }
+  "name": "cordova-plugin-ml-text",
+  "version": "3.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NeutrinosPlatform/cordova-plugin-ml-text"
+  },
+  "cordova": {
+    "id": "cordova-plugin-ml-text",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "text",
+    "ocr",
+    "ML Kit",
+    "machine learning",
+    "text recognition",
+    "optical",
+    "character",
+    "recognition",
+    "ecosystem:cordova",
+    "cordova-android",
+    "mobile ocr"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "cordova-android": ">=6.4.0"
+  },
+  "author": "jatahworx",
+  "license": "ISC",
+  "description": "cordova plugin for mobile ocr text recognition"
 }
