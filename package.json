@@ -28,6 +28,7 @@
   "engines": {
     "cordovaDependencies": {
       "cordova-android": ">=6.4.0"
+    }
   },
   "author": "jatahworx",
   "license": "ISC",
