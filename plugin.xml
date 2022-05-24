@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-ml-text-jp" version="3.1.0">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-ml-text" version="3.1.0">
 
     <name>Mltext</name>
 
@@ -21,8 +21,6 @@
             </feature>
         </config-file>
 
-        <preference name="MLKIT_TEXT_RECOGNITION_VERSION" default="16.0.0-beta4" />
-
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -30,7 +28,7 @@
         </config-file>
 
         <source-file src="src/android/Mltext.java" target-dir="src/com/neutrinos/mltextplugin/" />
-        <framework src="com.google.mlkit:text-recognition-japanese:$MLKIT_TEXT_RECOGNITION_VERSION" />
+        <framework src="com.google.mlkit:text-recognition-japanese:16.0.0-beta4" />
 
     </platform>
 
