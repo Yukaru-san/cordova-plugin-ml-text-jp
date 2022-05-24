@@ -139,16 +139,6 @@ function errorCallback(message) {
 }
 ```
 
-# More about us
-Find out more or contact us directly here :- https://www.neutrinos.co/
-
-Facebook :- https://www.facebook.com/Neutrinos.co/ <br/>
-LinkedIn :- https://www.linkedin.com/company/25057297/ <br/>
-Twitter :- https://twitter.com/Neutrinosco <br/>
-Instagram :- https://www.instagram.com/neutrinos.co/
-
-[![N|Solid](https://image4.owler.com/logo/neutrinos_owler_20171023_142541_original.jpg "Neutrinos")](https://www.neutrinos.co/) 
-
 # Example Objects
 The five properties text, languages, confidence, points and frame are obtained as arrays and are associated with each other using the index of the array.
 
